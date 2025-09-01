@@ -1,0 +1,39 @@
+[project]
+name = "northbay8"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "arize-phoenix>=11.30.0",
+    "crewai>=0.175.0",
+    "datasets>=4.0.0",
+    "docling>=2.48.0",
+    "fastapi>=0.116.1",
+    "hf-xet>=1.1.9",
+    "llama-index-embeddings-ollama>=0.8.2",
+    "llama-index-llms-ollama>=0.7.1",
+    "llama-index-vector-stores-postgres>=0.6.3",
+    "openinference-instrumentation>=0.1.37",
+    "openinference-instrumentation-llama-index>=4.3.4",
+    "opentelemetry-exporter-otlp>=1.36.0",
+    "opentelemetry-exporter-otlp-proto-http>=1.36.0",
+    "opentelemetry-instrumentation-httpx>=0.57b0",
+    "opentelemetry-sdk>=1.36.0",
+    "orjson>=3.11.3",
+    "pandas>=2.3.2",
+    "pgvector>=0.4.1",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.1.1",
+    "python-multipart>=0.0.20",
+    "pyyaml>=6.0.2",
+    "ragas>=0.3.2",
+    "rank-bm25>=0.2.2",
+    "requests>=2.32.5",
+    "scikit-learn>=1.7.1",
+    "sentence-transformers>=5.1.0",
+    "sentencepiece>=0.2.1",
+    "torch>=2.8.0",
+    "transformers>=4.55.4",
+    "uvicorn[standard]>=0.35.0",
+]
