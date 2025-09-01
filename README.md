@@ -13,20 +13,7 @@ It provides:
 
 📡 Tracing & Observability: Local JSONL logs + optional OpenTelemetry (OTLP).
 
-⚙️ Project Structure
-.
-├── data_pipeline/
-│   └── docling_loader.py      # Document ingestion & pgvector index builder
-├── rag_core/
-│   └── retriever.py           # Hybrid retriever (vector + BM25 + RRF + rerank)
-├── api/
-│   └── pipeline.py            # RAG orchestration (retrieval + LLM prompt + answer)
-├── evaluation/
-│   ├── phoenix_tracing.py     # OpenTelemetry + Phoenix tracing utilities
-│   └── ragas.py               # RAG evaluation (faithfulness, correctness, relevance)
-├── .env                       # Runtime configuration
-├── requirements.txt
-└── README.md
+
 
 📦 Installation
 1. Clone repository
@@ -183,3 +170,4 @@ Add CI/CD integration for automated evaluations.
 Support multi-modal ingestion (images, tables).
 
 Deploy with Docker Compose (Postgres + Ollama + API).
+
