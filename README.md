@@ -17,7 +17,7 @@ It provides:
 
 📦 Installation
 1. Clone repository
-git clone https://github.com/yourusername/rag-service.git
+git clone https://github.com/RagalaSantosh/Agentic_RAG_Ollama_Phoenix_RAGAS.git
 cd rag-service
 
 2. Create virtual environment
@@ -170,4 +170,5 @@ Add CI/CD integration for automated evaluations.
 Support multi-modal ingestion (images, tables).
 
 Deploy with Docker Compose (Postgres + Ollama + API).
+
 
